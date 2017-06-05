@@ -1,0 +1,574 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Décima Aplicación</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!--grupo CSS-->
+    <link rel="stylesheet" href="css/tema-app10.min.css">
+    <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+    
+    <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="visor/engine1/style.css" />
+<script type="text/javascript" src="visor/engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+    
+    <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="visor/engine2/style.css" />
+<script type="text/javascript" src="visor/engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+    <!--grupo JavaScript-->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/acciones.js"></script>
+    <script src="phonegap.js"></script>
+    <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/UVM2.jpg','imagenes/SCS2.jpg','imagenes/SC-IMG2.jpg','imagenes/ICE2.png','imagenes/Tele.jpg','imagenes/LAE1.jpg','imagenes/ADE.jpg')">
+
+	<div data-role="page" id="Principal" data-theme="a">
+    	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    		<h1>Proyecto Final</h1><p>
+    	</div>
+        <br><br>
+        <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="visor/data1/images/carreras_universitarias.jpg" alt="Carreras Universitarias" title="Carreras Universitarias" id="wows1_0"/></li>
+		<li><img src="visor/data1/images/universidad.jpg" alt="Universidad" title="Universidad" id="wows1_1"/></li>
+		<li><img src="visor/data1/images/ingenieria_en_sistemas.jpg" alt="Ingenieria en Sistemas" title="Ingenieria en Sistemas" id="wows1_2"/></li>
+		<li><img src="visor/data1/images/ingenieria_en_comunicaciones_y_electronica.jpg" alt="Ingenieria en Comunicaciones y Electronica" title="Ingenieria en Comunicaciones y Electronica" id="wows1_3"/></li>
+		<li><img src="visor/data1/images/licenciatura_en_administracion_de_empresas.jpg" alt="Licenciatura en Administracion de Empresas" title="Licenciatura en Administracion de Empresas" id="wows1_4"/></li>
+		<li><img src="visor/data1/images/licenciatura_en_administracion_de_empresas_0.png" alt="Licenciatura en Administracion de Empresas" title="Licenciatura en Administracion de Empresas" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="visor/data1/images/ingenieria_en_comunicaciones.jpg" alt="http://wowslider.com/" title="Ingenieria en Comunicaciones" id="wows1_6"/></a></li>
+		<li><img src="visor/data1/images/ingenieria_en_sistemas_computacionales.jpg" alt="Ingenieria en Sistemas Computacionales" title="Ingenieria en Sistemas Computacionales" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Carreras Universitarias"><span><img src="visor/data1/tooltips/carreras_universitarias.jpg" alt="Carreras Universitarias"/>1</span></a>
+		<a href="#" title="Universidad"><span><img src="visor/data1/tooltips/universidad.jpg" alt="Universidad"/>2</span></a>
+		<a href="#" title="Ingenieria en Sistemas"><span><img src="visor/data1/tooltips/ingenieria_en_sistemas.jpg" alt="Ingenieria en Sistemas"/>3</span></a>
+		<a href="#" title="Ingenieria en Comunicaciones y Electronica"><span><img src="visor/data1/tooltips/ingenieria_en_comunicaciones_y_electronica.jpg" alt="Ingenieria en Comunicaciones y Electronica"/>4</span></a>
+		<a href="#" title="Licenciatura en Administracion de Empresas"><span><img src="visor/data1/tooltips/licenciatura_en_administracion_de_empresas.jpg" alt="Licenciatura en Administracion de Empresas"/>5</span></a>
+		<a href="#" title="Licenciatura en Administracion de Empresas"><span><img src="visor/data1/tooltips/licenciatura_en_administracion_de_empresas_0.png" alt="Licenciatura en Administracion de Empresas"/>6</span></a>
+		<a href="#" title="Ingenieria en Comunicaciones"><span><img src="visor/data1/tooltips/ingenieria_en_comunicaciones.jpg" alt="Ingenieria en Comunicaciones"/>7</span></a>
+		<a href="#" title="Ingenieria en Sistemas Computacionales"><span><img src="visor/data1/tooltips/ingenieria_en_sistemas_computacionales.jpg" alt="Ingenieria en Sistemas Computacionales"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="visor/engine1/wowslider.js"></script>
+<script type="text/javascript" src="visor/engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+<br><br><br>
+        
+		<div>
+            <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+            <li class="ui-first-child ui-last-child">
+                <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                	<h2>INGENIERÍA EN SISTEMAS COMPUTACIONALES</h2>
+                    <p>Conoce un poco más sobre esta carrera...</p>
+                </a>
+             </li>
+             <li class="ui-first-child ui-last-child">
+                <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                    <h2>INGENIERÍA EN COMUNICACIONES Y ELECTRÓNICA</h2>
+                     <p>Conoce un poco más sobre esta carrera...</p>
+                </a>
+             </li>
+             <li class="ui-first-child ui-last-child">
+                <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                    <h2>LICENCIATURA EN ADMINISTRACIÓN DE EMPRESAS</h2>
+                     <p>Conoce un poco más sobre esta carrera...</p>
+                </a>
+             </li>
+                          <li class="ui-first-child ui-last-child">
+                <a href="#Galeria" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                    <h2>GALERÍA</h2>
+                     <p>Visualiza una galería aquí...</p>
+                </a>
+             </li>
+          </ul>
+		</div>
+        
+                <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        	<div><center>
+            <a href="#Datos">
+            	<img src="res/android/mdpi.png" width="55" >
+                </a>
+                </center>
+            </div>
+            <div>
+            	<h4>Carreras Universitarias<br>
+           	    Javier Ortega Zamora</h4>
+            </div>
+        </div>
+        </div>
+        
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+   	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>INGENIERÍA EN SISTEMA COMPUTACIONALES</h1>
+    </div>
+    <div data-role="content" align="center">
+    	<div>
+        <br>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ImageSC','','imagenes/SCS2.jpg',1)"><img src="imagenes/SCS1.jpg" width="305"  id="ImageSC"></a> </div><br>
+        <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1>¿QUÉ ES?</h1>
+            <div>
+       <em>Ingeniería en la que aprenderás a definir aplicaciones, dirigir y coordinar proyectos, planear y administrar proyectos de desarrollo de software.</em> <strong>Plan de estudios que te brinda conocimientos en tecnología de información, tecnologías de comunicación e ingeniería de software</strong> <em>y enfoca tu preparación para la obtención de certificaciones internacionales. </em></div>
+
+</div></div></div>
+     <br>
+     
+     <font size="78"><strong>Universidad UVM</strong></font><br>
+  Ingeniería en <font size="3"><strong>Sistemas Computacionales</strong></font>
+    <br><br><br>
+    <center>
+  <img src="imagenes/Ingenieria en Sistemas Computacionales.jpg" width="340" ><br><br>
+  </center>
+                  <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1>¿Qué aprenderás?</h1>
+            <div>
+      <em>Prepárate con nuestro plan de estudios para:</font><br><br>
+
+- Integrar sistemas para crear una plataforma coherente para la operación de la organización.<br><br>
+
+- Dirigir equipos de trabajo compuestos por analistas funcionales, analistas de aplicaciones y programadores.<br><br>
+
+- Definir estructuras modulares y de datos para aplicaciones informáticas en beneficio de la empresa.<br></em> </div>  
+     </div>
+</div>
+  
+  
+<center>
+<div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ 	<li class="ui-first-child ui-last-child">
+    <a href="http://23.22.227.184:8080/documents/20700/83574/sistemas-computacionales-plan_de_estudios.pdf/df2d2432-b68f-4890-b852-b29f3d852bf1" target="_self" data-role="button">
+      <h3>Plan de Estudios</h3>
+      </a>
+      </li>
+      </ul>
+      </div></center><br>
+      
+<font size="5"><strong>Certificaciones:</strong></font><br>
+<font face="Helvética">En tecnologías de información (Microsoft, IBM, Cisco, Oracle, etc.). Trabajaras con herramientas (CSS 3, Arduino, iOS, Android, Python, Javascript, Matlab…) y Metodologías avanzadas (Microsft ALM, SCRUM, PMI, ITIL).</font>
+<br><br>
+<font size="5"><strong>Orientación Innovadora:</strong></font><br>
+<font face="Helvética">Enfocado a la economía digital, aseguramiento de la información y seguridad y al desarrollo de habilidades Web 2.0, apps móviles, bases de datos, infraestructura tecnológica para dispositivos móviles.</font>
+<br><br>
+<font size="5"><strong>Doble Titulación:</strong></font><br>
+<font face="Helvética">Título por la UVM y otro en Ingeniería en Informática otorgado por la Universidad Europea (UE). Certificado de Excelencia Internacional en Sistemas de Información.</font><br><br>
+
+     <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1>6 razones para estudiar Sistemas</h1>
+            <div>
+           <strong> 1.- Podrás tener un buen salario: </strong><br>
+            Las ingenierías están mejor valoradas en el mercado laboral que las licenciaturas, por tanto, ya por el solo hecho de elegir una ingeniería te estás asegurando un mejor salario que el de la media. En el caso específico de la Ingeniería en Sistemas Computacionales, los salarios promedio son superiores a 15.000 pesos, de acuerdo a datos de Observatorio laboral.<br><br>
+
+<strong>2.- Amplio abanico de posibilidades laborales: </strong><br>
+Dado que los sistemas computacionales y la informática está presente en todas nuestras actividades como seres humanos, el ingeniero especializado tiene un gran abanico de posibilidades a la hora de emplearse y puede elegir entre diversas empresas y organizaciones para trabajar, como también hacerlo de manera autónoma.<br><br>
+
+<strong>3.- Podrás resolver problemas complejos: </strong><br>
+Los conocimientos que adquieres en este tipo de profesión te permitirán resolver problemas de la vida real y ser más práctico a la hora de buscar soluciones. Mientras estudies podrás adquirir una importante creatividad para resolver todos los retos que se te planteen.<br><br>
+
+<strong>4.- Podrás ayudar a la sociedad:</strong><br> 
+La ingeniería es una de las herramientas más importantes para el avance científico, por tanto, si estudias esta carrera podrás ayudar a generar diferentes tecnologías que te permitirán impulsar nuevos descubrimientos en el mundo real y contribuir de manera positiva a mejorar la vida humana.<br><br>
+
+<strong>5.- Podrás trabajar solo o en equipo:</strong> <br>
+Por su naturaleza, la carrera de Ingeniería en Sistemas Computacionales te permite realizar proyectos de manera independiente, como también trabajar en equipo y enriquecerse a través del intercambio. Podrás compartir y trabajar en equipo las veces que quieras, y tendrás además tu propio espacio de desarrollo individual.<br><br>
+
+<strong>6.- Es una carrera con futuro:</strong> <br>
+Aún queda mucho para descubrir en relación a los sistemas informáticos, la computación y las tecnologías, por lo cual esta carrera te asegurará un buen futuro, con grandes oportunidades laborales que se asegurarán un crecimiento profesional y personal.<br><br>
+    <center>
+<div style="width:90%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ 	<li class="ui-first-child ui-last-child">
+    <a href="http://definicion.de/ingenieria-de-sistemas/" target="_self" data-role="button">
+      <h4>Aprende un poco más...</h4>
+      </a>
+      </li>
+      </ul>
+      </div></center><br>
+</div>
+    </div><br>
+    <center>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/SC-IMG2.jpg',1)"><img src="imagenes/SC-Img.png" width="320" id="Image4"></a>
+    </center>
+    <br><br>
+    
+    <center>
+<div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ 	<li class="ui-first-child ui-last-child">
+    <a href="http://www.ipn.mx/educacionsuperior/Paginas/Ing-Sist-Compu.aspx" target="_self" data-role="button">
+      <h4>Otra Universidad...</h4>
+      </a>
+      </li>
+      </ul>
+      </div></center><br>
+     
+</div>
+
+		<div>
+            <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+            <li class="ui-first-child ui-last-child">
+                <a href="https://www.youtube.com/watch?v=2eYjhCSNh6M" target="_self" class="ui-btn ui-btn-icon-right ui-icon-carat-r" >
+                    <h5>"¿Qué hace un Ingeniero en sistemas computacionales?"</h5>
+                     <p>El trabajo en Sistemas Computacionales</p>
+                </a>
+                </li>
+                </ul>
+                </div>
+
+  <div data-role="footer" data-theme="a" data-position="fixed">
+          	<div>
+            <center>
+            	            <a href="#Datos">
+            	<img src="res/android/mdpi.png" width="55" >
+                </a>
+                </center>
+            </div>
+    	<h4>Carreras Universitarias</h4>
+        <h2>Javier Ortega Zamora</h2>
+     </div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>INGENIERÍA EN COMUNICACIONES Y ELECTRÓNICA</h1>
+    </div>
+    <div data-role="content" align="center">
+    	<div>
+        <br>
+        <center>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Imageew','','imagenes/ICE2.png',1)"><img src="imagenes/ICE.png" width="320" id="Imageew"></a>
+        </center>
+      	</div><br>
+        
+                <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1>¿QUÉ ES?</h1>
+            <div>
+      <em>Si quieres diseñar, planear y organizar sistemas de automatización, así como emplear de forma innovadora los principales sistemas operativos y lenguajes de programación, estudia la <strong>Ingeniería en Telecomunicaciones y Electrónica</strong> en la Universidad Tecnológica de México y ábrete a un mundo de posibilidades para crecer y alcanzar tus metas profesionales.  </em> </div>  
+     </div><br>
+</div></div>
+     
+     <font size="78"><strong>Universidad UNITEC</strong></font><br>
+  Ingeniería en <font size="3"><strong>Telecomunicaciones y Electrónica</strong></font>
+    <br><br><br>
+    
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/UVM2.jpg',1)"><center><img src="imagenes/UVM.jpg" name="Image20" width="350" id="Image20"></center></a><br><br>
+  
+                  <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1>¿Qué aprenderás?</h1>
+            <div>
+      <em>En la Universidad Tecnológica de México, un equipo de profesores con experiencia laboral en las materias que imparten te darán las herramientas para:</font><br><br>
+
+- Trabajar con sistemas operativos, lenguajes de programación, redes de datos, LAN, WAN, internet e intranet, así como tecnología inalámbrica. <br><br>
+- Utilizar la programación de microprocesadores y controladores lógicos para la automatización y el control.<br><br>
+- Colaborar en el diseño, administración y evaluación de proyectos de inversión en tecnología.<br><br>
+- Manejar adecuadamente video bajo demanda, teleconferencias y operaciones satelitales.<br><br>
+- Ser un experto en amplificación de señales y sistemas de microondas y satélites, así como en sistemas de comunicación por fibra óptica.<br> </em> </div>  
+     </div></div>
+  
+<center>
+<div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ 	<li class="ui-first-child ui-last-child">
+    <a href="http://www.unitec.mx/ingenieria-en-telecomunicaciones-y-electronica/" target="_self" data-role="button">
+      <h3>Plan de Estudios</h3>
+      </a>
+      </li>
+      </ul>
+      </div></center><br>
+      
+<font size="2"><strong>MODALIDADES DE ESTUDIO:</strong></font><br>
+<font face="Helvética">El modelo educativo de la UNITEC está basado en un plan cuatrimestral de estudios que organiza carreras y materias, y que facilita que la Universidad abra tres periodos de inscripción al año enero, mayo y septiembre.<br>
+Hace posible también que avances a tu propio ritmo, combines el trabajo con el estudio desde muy temprano y, si así lo requieres, curses tu carrera en menos tiempo.</font>
+<br><br>
+    <center>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image97','','imagenes/Tele.jpg',1)"><img src="imagenes/Ingenieria en Comunicaciones.jpg" width="320"  id="Image97"></a>    <br><br>
+    <div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ 	<li class="ui-first-child ui-last-child">
+    <a href="https://www.universidaduvm.mx/ingenieria-en-telecomunicaciones-y-electronica#seccion-1" target="_self" data-role="button">
+      <h4>Otra Universidad...</h4>
+      </a>
+      </li>
+      </ul>
+      </div></center><br>
+          <center><img src="imagenes/TYE.jpg" width="450" height="114" alt="Ingeniería en Comunicaciones y Electrónica"> </center>
+
+     <div data-role="main" class="ui-content">
+    <div>
+            <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+            <li class="ui-first-child ui-last-child">
+                <a href="https://www.youtube.com/watch?v=pnhodmC91ds" target="_self" class="ui-btn ui-btn-icon-right ui-icon-carat-r" >
+                    <h5>"Ingenieria en Electrónica y Comunicaciones"</h5>
+                     <p>Conoce un poco más sobre la carrera...</p>
+                </a>
+                </li>
+                </ul>
+                </div>	
+    </div>
+
+  <div data-role="footer" data-theme="a" data-position="fixed">
+          	<div>
+            <center>
+            	            <a href="#Datos">
+            	<img src="res/android/mdpi.png" width="55" >
+                </a>
+                </center>
+            </div>
+    	<h4>Carreras Universitarias</h4>
+        <h2>Javier Ortega Zamora</h2>
+     </div>
+</div>
+
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+   	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>LICENCIATURA EN ADMINISTRACIÓN DE EMPRESAS</h1>
+    </div>
+    <div data-role="content" align="center">
+    	<div>
+        <br>
+        <center>
+          <img src="imagenes/ADE.jpg" width="320">
+        </center>
+      	</div><br>
+        
+                <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1>¿QUÉ ES?</h1>
+            <div>
+      <em>El administrador es un organizador de recursos materiales y humanos. Estudiando administración, las habilidades y conocimientos que desarrolles te permitirán detectar, prevenir y corregir errores en la planeación del trabajo de las personas. Como administrador puedes ayudar a las personas a hacer mejor las cosas y a ser más efectivos en su trabajo.</em> </div>  
+     </div><br>
+</div></div>
+     
+     <font size="78"><strong>Universidad UPAEP</strong></font><br>
+  Licenciatura en <font size="3"><strong>Administración de Empresas</strong></font>
+    <br><br><br>
+    
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image200j','','imagenes/ADE.jpg',1)"><img src="imagenes/AE.png" width="320"  id="Image200j"></a><br><br>
+  
+                  <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1>¿Qué aprenderás?</h1>
+            <div>
+      <em>Como licenciado en Administración de Empresas analizarás la forma en la que operan las organizaciones en un entorno global; sus implicaciones éticas, los estilos de liderazgo y las estrategias de negocios. Estarás consciente de
+las tendencias y los retos que enfrentan las empresas en diferentes estapas de su desarrollo y utilizarás tecnologías
+de vanguardia para simular eventos y escenarios particulares del ambiente de los negocios. Al egresar podrás
+desempeñarte en empresas de cualquier sector o segmento, sea éste público o privado, destacando en niveles
+gerenciales o directivos, o bien desarrollándote en áreas como gestión del talento humano, auditoría administrativa,
+logística, finanzas, mercadotecnia, producción, contabilidad y/o consultoría, y si lo prefieres crear tu propia empresa
+ayudando así a nuestro país en su crecimiento y propiciando el desarrollo de otras personas por medio de la
+aplicación de los conocimientos adquiridos en tu formación.</font><br><br>
+• Crear, desarrollar y dirigir su propia empresa. <br>
+• Organización pública o privada. <br>
+• Asesoría y/o consultoría. </em> </div>  
+     </div></div>
+  
+<center>
+<div style="width:60%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ 	<li class="ui-first-child ui-last-child">
+    <a href="http://www.upaep.mx/index.php?option=com_content&view=article&id=149&Itemid=167" target="_self" data-role="button">
+      <h3>Plan de Estudios</h3>
+      </a>
+      </li>
+      </ul>
+      </div></center><br>
+      <center><img src="imagenes/INFO.png" width="350">  <br><br>
+      
+     <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+        <h1>¿Por qué estudiar Administración de Empresas?</h1>
+            <div>
+      <em>1.- Crecer y hacer crecer la empresa: </strong><br>
+            Trabajar en una empresa implica cumplir roles, la eficacia de gestión la compañía dependerá de cómo estos roles son desempeñados conforme al objetivo de maximizar los beneficios para la empresa, sus miembros y sus clientes. Y el responsable de todo ello es, de buenas a primeras, el gerente.<br>
+Acciones que marquen el liderazgo en una organización y para ello es preciso haber recibido una sólida formación, así como tener una vocación pura para hacerlo.<br><br>
+
+<strong>2.- ​Fascinación pura por la gestión empresarial: </strong><br>
+Las organizaciones se encuentran entre los fenómenos más fascinantes que pueden estudiarse. ¿Por qué es que existen? ¿Por qué organizar la actividad que ocurre dentro y alrededor de ellas de una u otra forma? ¿Por qué es que cada organización es diferente -incluso cuando son competidoras directas en el mismo sector-? ¿Cómo las personas que viven y trabajan dentro de las empresas aprenden a convivir y a tomar decisiones dentro de estos sistemas complejos? Comprender los fundamentos y los mecanismos que conforman una organización, sin dudas permite a los administradores el tomar ventaja con respecto a las funciones de dirigir, liderar, planificar, gestionar, fomentar, negociar, capacitar y organizar toda esta actividad.<br>
+
+Por otro lado, la formación adquirida es absolutamente útil para administrar una organización propia, teniendo por bien ser jefe y al mismo tiempo trabajador por cuenta propia. Pues, este tipo de empresa es la que precisa de mayor solidez técnica, modelos teóricos y perspectivas para implementar y crecer en el mediano y largo plazo.<br>
+
+Si existe una cierta atracción por la gestión, la organización y el ejercicio del liderazgo, los estudios universitarios en Administración de empresas permiten comenzar la preparación sistemática para una carrera profesional y personal como gerentes o empresarios.<br><br>
+
+<strong>3.- Te prepara para el futuro: </strong><br>
+Las funciones en gerencia requieren de conocimientos acerca de la importancia de los factores humanos y laborales en las organizaciones, incluyendo la estructura, el diseño y la cultura de las compañías, teorías de gestión, políticas y prácticas empresariales, y temáticas vinculadas a las relaciones laborales a nivel nacional e internacional.<br>
+
+Estudiar Gestión o Administración de empresas como una disciplina estratégica para quienes buscan puestos de gerencia, ejercer funciones y roles de liderazgo.<br>
+
+Las áreas de estudio que comprende la currícula básica en general de Administración, integran la combinación de cursos sobre: gestión general y estrategia, gestión internacional e intercultural, recursos humanos y relaciones laborales o estudios organizacionales.<br><br>
+
+<strong>4.- Las oportunidades de empleo:</strong><br> 
+Una amplia y variada gama de funciones y carreras están abiertas a los estudiantes de Administración, incluyendo la gestión, consultoría, estrategia de negocios, capacitación y desarrollo, contratación, recursos humanos, relaciones laborales, políticas públicas, consultoría de negocios y funciones de alta dirección en empresas de toda clase.<br> 
+
+Así, es cierto que la combinación entre una formación universitaria sólida y una vocación y fascinación pura por la gestión en general, proporcionará las habilidades pertinentes que ayudarán a tener éxito en una variedad de industrias de servicios financieros, productos de consumo, educación, salud, relaciones públicas, servicios públicos, comercios minoristas, manufacturas, etc. El plan de estudios de cualquier universidad ha de brindar una amplia base de habilidades para los futuros administradores - tales como contabilidad, sistemas informáticos, teorías en micro y macro economía, protocolos de ética y deontología, finanzas, derecho, marketing, comunicación oral y escrita, etc.<br> 
+
+Pero, es el modo en que utilicemos ese conocimiento el que será, sin lugar a dudas, el camino hacia la eficacia administrativa y el éxito empresarial.
+</em> </div>  
+
+     
+     <center>
+<div style="width:90%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+ 	<li class="ui-first-child ui-last-child">
+    <a href="http://deconceptos.com/ciencias-juridicas/administracion-de-empresas" target="_self" target="_self" data-role="button">
+      <h3>Aprende un poco más...</h3>
+      </a>
+      </li>
+      </ul>
+      </div></center><br>
+           </div></div>
+      <center><img src="imagenes/LAE1.jpg" width="320" alt="Licenciatura en Administración de Empresas"> </center>
+
+    <div>
+            <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+            <li class="ui-first-child ui-last-child">
+                <a href="https://www.youtube.com/watch?v=y7Km_ThjB70" target="_self" class="ui-btn ui-btn-icon-right ui-icon-carat-r" >
+                    <h5>"Licenciatura en Administración de Empresas"</h5>
+                     <p>Conoce un poco más sobre la carrera...</p>
+                </a>
+                </li>
+                <li class="ui-first-child ui-last-child">
+                <a href="https://www.youtube.com/watch?v=gsmRwiOB1Cw" target="_self" class="ui-btn ui-btn-icon-right ui-icon-carat-r" >
+                    <h6>"10 cosas por las que estudiar Administración de Empresas"</h6>
+                     <p>Conoce un poco más sobre la carrera...</p>
+                     </a>
+                     </li>
+                     
+                </ul></div>
+
+  <div data-role="footer" data-theme="a" data-position="fixed">
+          	<div>
+            <center>
+            	            <a href="#Datos">
+            	<img src="res/android/mdpi.png" width="55" >
+                </a>
+                </center>
+            </div>
+    	<h4>Carreras Universitarias</h4>
+        <h2>Javier Ortega Zamora</h2>
+     </div>
+</div></div>
+
+
+<div data-role="page" id="Datos" data-add-back-btn="true" data-theme="a">
+   	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>ELABORADO POR:</h1>
+    </div>
+    <div data-role="content" align="center">
+    	<div>
+            <h2>Nombre:</h2>
+            <h3>Javier Ortega Zamora</h3>
+            <br>
+            
+            <h2>Grado y Grupo:</h2>
+            <h3>4° "G"</h3>
+            <br>
+           
+           <h2>Especialidad:</h2>
+            <h3>Programación</h3>
+            <br>
+            
+            <h2>Submódulo:</h2>
+            <h3>Desarrolla Aplicaciones Móviles</h3>
+            <br>
+            
+            <h2>Docente:</h2>
+            <h3>Lic. José Antonio Gómez Hdez</h3>
+      	</div>
+     </div>
+          
+  <div data-role="footer" data-theme="a" data-position="fixed">
+  <div><center>
+            	<img src="res/android/mdpi.png" width="55" >
+               </center> </div>
+    	<h4>Carreras Universitarias</h4>
+        <h2>Javier Ortega Zamora</h2>
+     </div>
+</div>
+</div>
+
+<div data-role="page" id="Galeria" data-add-back-btn="true" data-theme="a">
+   	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    	<h1>GALERÍA</h1>
+    </div>
+    <div data-role="content" align="center">
+    	<div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="visor/data2/images/ae.png" alt="AE" title="AE" id="wows2_0"/></li>
+		<li><img src="visor/data2/images/ingenieria_en_comunicaciones_y_electronica.jpg" alt="Ingenieria en Comunicaciones y Electronica" title="Ingenieria en Comunicaciones y Electronica" id="wows2_1"/></li>
+		<li><img src="visor/data2/images/isc.jpg" alt="ISC" title="ISC" id="wows2_2"/></li>
+		<li><img src="visor/data2/images/lae1.jpg" alt="LAE1" title="LAE1" id="wows2_3"/></li>
+		<li><img src="visor/data2/images/licenciatura_en_administracion_de_empresas.png" alt="Licenciatura en Administracion de Empresas" title="Licenciatura en Administracion de Empresas" id="wows2_4"/></li>
+		<li><img src="visor/data2/images/scimg.png" alt="SC-Img" title="SC-Img" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com"><img src="visor/data2/images/tye.jpg" alt="bootstrap carousel" title="TYE" id="wows2_6"/></a></li>
+		<li><img src="visor/data2/images/uvm.jpg" alt="UVM" title="UVM" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="AE"><span><img src="visor/data2/tooltips/ae.png" alt="AE"/>1</span></a>
+		<a href="#" title="Ingenieria en Comunicaciones y Electronica"><span><img src="visor/data2/tooltips/ingenieria_en_comunicaciones_y_electronica.jpg" alt="Ingenieria en Comunicaciones y Electronica"/>2</span></a>
+		<a href="#" title="ISC"><span><img src="visor/data2/tooltips/isc.jpg" alt="ISC"/>3</span></a>
+		<a href="#" title="LAE1"><span><img src="visor/data2/tooltips/lae1.jpg" alt="LAE1"/>4</span></a>
+		<a href="#" title="Licenciatura en Administracion de Empresas"><span><img src="visor/data2/tooltips/licenciatura_en_administracion_de_empresas.png" alt="Licenciatura en Administracion de Empresas"/>5</span></a>
+		<a href="#" title="SC-Img"><span><img src="visor/data2/tooltips/scimg.png" alt="SC-Img"/>6</span></a>
+		<a href="#" title="TYE"><span><img src="visor/data2/tooltips/tye.jpg" alt="TYE"/>7</span></a>
+		<a href="#" title="UVM"><span><img src="visor/data2/tooltips/uvm.jpg" alt="UVM"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">css slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="visor/engine2/wowslider.js"></script>
+<script type="text/javascript" src="visor/engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+      	</div>
+     </div>
+          
+  <div data-role="footer" data-theme="a" data-position="fixed">
+  <div><center>
+            	<img src="res/android/mdpi.png" width="55" >
+               </center> </div>
+    	<h4>Carreras Universitarias</h4>
+        <h2>Javier Ortega Zamora</h2>
+     </div>
+</div>
+</div>
+</body>
+</html>
